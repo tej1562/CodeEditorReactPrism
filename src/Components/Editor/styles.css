@@ -1,0 +1,54 @@
+.wrapper{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.editor {
+    text-align: left;
+    position: relative;
+}
+
+.editor-overlay{
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    tab-size: inherit;
+    text-indent: inherit;
+    text-rendering: inherit;
+    text-transform: inherit;
+    white-space: pre-wrap;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+.editor-input {
+    outline: none;
+    background: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    resize: none;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: transparent;
+}
+
+.editor-input:empty{
+    -webkit-text-fill-color: inherit;
+}
+
+.title{
+   text-align: center;
+}
