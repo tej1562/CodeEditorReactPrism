@@ -1,0 +1,15 @@
+export const languages = [
+    "jsx",
+    "tsx",
+    "swift",
+    "kotlin",
+    "objectivec",
+    "js-extras",
+    "reason",
+    "rust",
+    "graphql",
+    "yaml",
+    "go",
+    "cpp",
+    "markdown",
+]
